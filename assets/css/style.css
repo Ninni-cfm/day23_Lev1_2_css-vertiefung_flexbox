@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("https://i.picsum.photos/id/911/1920/1080.jpg?hmac=Eg_tTu2fhgODRvoFdnRHUpfGbQiEoGOFvHfSHPpSNI8");
+    color: #ccc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+a:visited {
+    color: #ccc;
+}
+a:hover {
+    color: white;
+}
+
+/* linear gradient to generate a dark line at the top of the page */
+header {
+    background: linear-gradient(
+        to top,
+        #ffffff10 50%,
+        #ffffff40 98%,
+        #ffffffff 100%
+    );
+}
+
+nav {
+    padding: 1% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 2em;
+}
+nav ul {
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+nav > a {
+    margin-right: 20%;
+}
